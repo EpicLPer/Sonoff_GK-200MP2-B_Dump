@@ -25,7 +25,6 @@ Once connected you need to quickly press "Enter" to enter U-Boot. After doing so
 
 ```
 # setenv bootargs console=ttySGK0 rootfstype=squashfs root=/dev/mtdblock2 init=/gm/bin/busybox mem=40M phytype=0 mtdparts=gk_flash:0x50000@0(UBOOT),0x160000@0x50000(LINUX),0x340000@0x1B0000(ROOTFS),0x90000@0x500000(USER),0x260000@0x5A0000(APP),8M@0(ALL) ash
-
 # boot
 ```
 
