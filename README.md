@@ -4,6 +4,8 @@ Before we start, this is my first Github repo :) So if things are off or not rig
 
 I'll provide as much info here as possible so you guys can hopefully work out a way to make this camera cloudless! It's a nice (and cheap) little piece of hardware that could be perfect for a modded firmware to simply make it an ONFIV compatible camera with PTZ controlls. As of now it only provides a somewhat low bitrate RTSP stream with just 10FPS.
 
+**PS.: Don't forget to check out the Wiki where you can add or get more info about protocols and more! You can also contribute to it if you want :)**
+
 # Contributions
 Thanks to the awesome people listed here who helped me to successfully dump the firmware and analyse it!  
 * [Toble_Miner](https://twitter.com/Toble_Miner/)  
