@@ -6,6 +6,8 @@ I'll provide as much info here as possible so you guys can hopefully work out a 
 
 **PS.: Don't forget to check out the Wiki where you can add or get more info about protocols and more! You can also contribute to it if you want :)**
 
+**PPS.:** If you want to see a video on how to mod your own Sonoff Cam to dump firmware and get a shell: [YouTube Video](https://www.youtube.com/watch?v=FRxGen_OdEM)
+
 # Contributions
 Thanks to the awesome people listed here who helped me to successfully dump the firmware and analyse it!  
 * [Toble_Miner](https://twitter.com/Toble_Miner/)  
