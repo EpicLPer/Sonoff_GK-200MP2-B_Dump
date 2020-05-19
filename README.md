@@ -41,8 +41,22 @@ Once connected you need to quickly press "Enter" to enter U-Boot. After doing so
 
 You then have to manually run some commands from the "`squashfs_init`" and "`init`" file to get most of the filesystem and Busybox commands working, however I myself haven't figured out all the commands you need yet. Merge requests are welcome if you do so :)
 
----
+# How to get SSH access
+Put a content of `GK-200MP2-B_ssh_hack.tar.gz` file to the root of the microSD card (formatted as FAT32), insert it to camera and reboot.  
+Around 35 seconds after powering camera on, camera should start listening on port 22 and accept SSH connection. Initial password is set to `sshhack`.  
+This hack is not persistent, microSD card needs to be inserted during every boot of camera.
 
+## Password change
+Password can be changed very easily. On any linux machine, run:
+```
+mkpasswd -5
+```
+and enter your requested password. This command will return to the terminal MD5 hash of the password. Replace this hash in `shadow` file.
+
+## How the hack works?
+Script `/mnt/mtd/ipc/app/App.sh`, which is executed during boot contain function `LoadSdcardScript()`, which is checking presence of `boot.sh` file in microSD card. If it is there, it is executed. You can put there anything you want. In this case, script is uploading and executing dropbear.
+
+---
 # Important Infos
 ## Getting you started
 * Telnet is open on Port 23, however you can't login. It's not permitted without a password, however the root user does not have a password defined. Same applies to Serial.
