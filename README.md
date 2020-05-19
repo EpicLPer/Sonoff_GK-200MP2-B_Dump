@@ -1,5 +1,7 @@
 # Sonoff GK-200MP2-B Dump
 
+**We also have an ongoing Discord DM group open for this camera! If you want to join just throw me a mail (epiclper7@gmail.com) or add me directly (EpicLPer#0001) and I can add you to the group :)**
+
 Before we start, this is my first Github repo :) So if things are off or not right looking go yell at me and I'll fix it!
 
 I'll provide as much info here as possible so you guys can hopefully work out a way to make this camera cloudless! It's a nice (and cheap) little piece of hardware that could be perfect for a modded firmware to simply make it an ONFIV compatible camera with PTZ controlls. As of now it only provides a somewhat low bitrate RTSP stream with just 10FPS.
