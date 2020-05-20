@@ -11,11 +11,11 @@ I'll provide as much info here as possible so you guys can hopefully work out a 
 **PPS.:** If you want to see a video on how to mod your own Sonoff Cam to dump firmware and get a shell: [YouTube Video](https://www.youtube.com/watch?v=FRxGen_OdEM)
 
 # Contributions
-Thanks to the awesome people listed here who helped me to successfully dump the firmware and analyse it!  
+Thanks to the awesome people listed here who helped me to successfully dump the firmware, analyse it or in general participated something to this GitHub Repo!  
 * [Toble_Miner](https://twitter.com/Toble_Miner/)  
 * [NodePoint](https://twitter.com/CoolApps45/)
 * [Glenn D](https://twitter.com/B1tSmurf/)
-
+* [Blackdot](https://github.com/blackdot)
 
 # Firmware Dumps
 If you just want to get started without modifying the camera on your own I've provided a factory reset firmware dump image above, just browse through the files! It's a dump of the whole Flash.  
