@@ -44,6 +44,9 @@ Once connected you need to quickly press "Enter" to enter U-Boot. After doing so
 You then have to manually run some commands from the "`squashfs_init`" and "`init`" file to get most of the filesystem and Busybox commands working, however I myself haven't figured out all the commands you need yet. Merge requests are welcome if you do so :)
 
 # How to get SSH access
+
+Video Tutorial: https://www.youtube.com/watch?v=qiTOfBLPr_I
+
 Put a content of `GK-200MP2-B_ssh_hack.tar.gz` file to the root of the microSD card (formatted as FAT32), insert it to camera and reboot.  
 Around 35 seconds after powering camera on, camera should start listening on port 22 and accept SSH connection. Initial password is set to `sshhack`.  
 This hack is not persistent, microSD card needs to be inserted during every boot of camera.
